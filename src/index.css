@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+    Setando o width minímo para que os navegadores não setem 
+    o tamanho automaticamente
+*/
+*{
+    min-width: 0;
+}
